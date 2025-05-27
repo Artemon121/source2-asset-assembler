@@ -4,3 +4,10 @@
 .pytest_cache/
 __pycache__/
 localtests
+build/
+dist/
+eggs/
+.eggs/
+wheels/
+*.egg-info/
+*.egg
