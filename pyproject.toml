@@ -1,0 +1,21 @@
+[project]
+name = "source2_asset_assembler"
+version = "0.1.0"
+description = "Tool to assemble various Source 2 assets manually"
+authors = [{ name = "LionDoge", email = "KrystianoXPL@gmail.com" }]
+license = "GPL-3.0-only"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "keyvalues3==0.1",
+  "lz4==4.3.3",
+  "parsimonious==0.10.0",
+  "regex==2024.7.24",
+]
+
+[tool.setuptools]
+packages = ["source2_asset_assembler"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
