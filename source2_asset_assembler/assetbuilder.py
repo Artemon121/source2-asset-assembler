@@ -816,6 +816,10 @@ def printDebug(msg):
 	if g_isVerbose:
 		print(msg)
 
+def set_verbose(value: bool) -> None:
+	global g_isVerbose
+	g_isVerbose = value
+
 if __name__ == "__main__":
 	example = '''example:
 
